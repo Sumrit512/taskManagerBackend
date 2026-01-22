@@ -1,6 +1,6 @@
 import { AuthRequest } from "../middleware/auth";
 import { Response } from "express";
-import prisma from "../prisma";
+import {prisma} from "../prisma";
 import { Priority } from "@prisma/client";
 import { Prisma } from "@prisma/client";
 
